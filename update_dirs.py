@@ -24,6 +24,7 @@ REPOS = [
     "datasets/VoiceOfML/Japanese-Materials",
     "datasets/VoiceOfML/GPCREducation",
     "datasets/VoiceOfML/IMPMaterial",
+    "datasets/VoiceOfML/MLMRL-Hub"
 ]
 
 HF_USERNAME = "VoiceOfML"
