@@ -146,7 +146,7 @@ def process_repo(repo_path):
         run_cmd(["git", "add", "树形目录.txt", "直接目录.txt"], cwd=repo_dir)
         run_cmd([
             "git", "-c", "user.name=github-actions[bot]",
-            "-c"， "user.email=github-actions[bot]@users.noreply.github.com",
+            "-c", "user.email=github-actions[bot]@users.noreply.github.com",
             "commit", "-m", commit_msg
         ], cwd=repo_dir)
         r = run_cmd(["git", "push"], cwd=repo_dir)
